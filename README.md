@@ -44,7 +44,10 @@ This package doesn't check the integrity of the JWT/Token: it simply extracts it
 Comments and suggestions are always welcomed.
 
 # TODO
-Write more tests
-Integrate with Travis CI
-Add some badge in the readme
-Publish on NPM
+- Write more tests
+
+- Integrate with Travis CI
+
+- Add some badge in the readme
+
+- Publish on NPM
