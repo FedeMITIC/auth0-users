@@ -13,12 +13,6 @@ app.set('view engine', 'jade');
 app.use(logger('dev'));
 app.use(express.static(path.join(__dirname, 'public')));
 
-// const domainURL = 'your_domain_URL';
-/* async function getUser(req, res, next) {
-  res.locals.user = await getTokenInfo(req.headers.authorization);
-  next();
-} */
-
 const getUser = (req, res, next) =>
   getTokenInfo(req.headers.authorization)
     .then((user) => {
