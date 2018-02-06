@@ -12,7 +12,7 @@ First, load the package in your code:
 
 Then, call the function getTokenInfo to retrieve the data
 
-`user.getTokenInfo(token, endpointUrl);`
+`getTokenInfo(token, endpointUrl);`
 
 `getTokenInfo` always returns a promise, so chain it with `.then()` and `.catch()`
 methods to handle promise resolution and rejection.
