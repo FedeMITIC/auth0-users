@@ -31,7 +31,7 @@ const _errors = {
  * @param debug: execute the function in debug mode: will print verbose debugging messages. (default value = false)
  * @returns {Promise<>}
  */
-    // @todo: implement debug mode, writing to console verbose messages.
+// @todo: implement debug mode, writing to console verbose messages.
 const getTokenInfo = (bearer, url, debug = false) => new Promise(((resolve, reject) => {
   /**
    * Check if a token is present.

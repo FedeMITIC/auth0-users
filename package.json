@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "auth0-user"
+    "url": "https://github.com/FedeMITIC/auth0-users"
   },
   "keywords": [
     "auth0",
